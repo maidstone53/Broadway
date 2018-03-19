@@ -4,19 +4,21 @@
 body {
   text-align: center;
 }
-.title {
+#title {
   background-image: url(the-flatiron-building.png);
+  background-position: left;
+  background-size: cover;
 }
-.title h1 {
+#title h1 {
   font-size: 70px;
   font-weight: bold;
   color: white;
 }
-.title nav {
+#title nav {
   font-size: 18px;
   color:  white;
 }
-.process h2 {
+#process h2 {
   font-size: 32px;
   font-weight: bold;
 }
@@ -33,9 +35,10 @@ footer {
   background-color: dimgray;
   text-align: left;
 }
-.work h2 {
+#work h2 {
   font-size: 23px;
   font-weight: bold;
   color: white;
   background-image: url(the-flatiron-building.png);
+  background-position: left;
 }
